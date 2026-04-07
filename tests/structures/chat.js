@@ -183,7 +183,7 @@ describe('Chat', function () {
         });
     });
 
-    // eslint-disable-next-line mocha/no-pending-tests
+    // eslint-disable-next-line mocha/no-skipped-tests
     describe.skip('Destructive operations', function () {
         it('can clear all messages from chat', async function () {
             const res = await chat.clearMessages();
